@@ -1,4 +1,9 @@
-/target/
-/.settings
-/.project
-/.classpath
+**/*.iml
+**/.project
+**/.settings
+**/.classpath
+**/target/
+**/*_DEBUG.txt
+**/Thumbs.db
+**/pspbrwse.jbf
+**/.idea
