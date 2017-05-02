@@ -27,7 +27,7 @@
 		<dependency>
 			<groupId>com.dscsag</groupId>
 			<artifactId>plm-api</artifactId>
-			<version>Feature-PLM-20637-2</version>
+			<version>PLM-20637</version>
 <!--
 			<scope>system</scope>
 			<systemPath>${ectr.installation.directory}/basis/classes/plm-api.jar</systemPath>
@@ -61,9 +61,7 @@
 					</execution>
 				</executions>
 				<configuration>
-					<Require-Bundle>
-						com.dscsag.plm-api; bundle-version=[0,)
-					</Require-Bundle>
+					<_consumer-policy>$${range;[===,=+)}</_consumer-policy>
 					<instructions>
 						<Bundle-Activator>${bundle.activator}</Bundle-Activator>
 						<Bundle-SymbolicName>${project.groupId}.${project.artifactId};singleton:=true</Bundle-SymbolicName>
