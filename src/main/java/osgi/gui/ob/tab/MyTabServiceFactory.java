@@ -17,14 +17,9 @@ public class MyTabServiceFactory implements PluginObjectBrowserTabService
   }
 
   @Override
-  public List<PluginObjectBrowserTab> getTabFor(String type)
+  public List<PluginObjectBrowserTab> getTabsFor(String type)
   {
     return "MARA".equals(type)? tabProvider: Collections.emptyList();
   }
 
-  @Override
-  public String getId()
-  {
-    return "osgi.dogoodthings.gui.ob.tab";
-  }
 }
