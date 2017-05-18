@@ -14,5 +14,5 @@ Setup project in eclipse:
 10. goto ECTR installation, create a folder(s) OSGi-Examples\basis\plugins inside <ectr_inst_dir>\addons  (mkdir "C:\Program Files (x86)\SAP\ECTR\addons\OSGi-Examples\basis\plugins")
 11. put OSGi-Examples-OBTab-Part5-1.0.0.jar inside OSGi-Examples\basis\plugins
 12. mkdir "C:\Program Files (x86)\SAP\ECTR\addons\OSGi-Examples\customize\config"
-13. select some material in ECTR und swithc to tab "OSGi" in object browser
+13. select some material in ECTR und swithc to tab "Net Weight" in object browser
 14. note - you need at least ECTR version 5.1.9.0 to get the example code to work
