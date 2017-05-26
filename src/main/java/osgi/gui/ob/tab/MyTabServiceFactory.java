@@ -9,7 +9,7 @@ import java.util.List;
 
 public class MyTabServiceFactory implements PluginObjectBrowserTabService
 {
-  private List<PluginObjectBrowserTab> tabProvider;
+  private List<PluginObjectBrowserTab<?>> tabProvider;
 
   public MyTabServiceFactory(ECTRService ectrService)
   {
@@ -17,7 +17,7 @@ public class MyTabServiceFactory implements PluginObjectBrowserTabService
   }
 
   @Override
-  public List<PluginObjectBrowserTab> getTabsFor(String type)
+  public List<PluginObjectBrowserTab<?>> getTabsFor(String type)
   {
     return "MARA".equals(type)? tabProvider: Collections.emptyList();
   }

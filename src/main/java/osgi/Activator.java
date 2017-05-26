@@ -5,7 +5,6 @@ import com.dscsag.plm.spi.interfaces.gui.ob.PluginObjectBrowserTabService;
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;
 
-import com.dscsag.plm.spi.interfaces.gui.PluginContext;
 import org.osgi.framework.ServiceReference;
 import osgi.gui.ob.tab.MyTabServiceFactory;
 
