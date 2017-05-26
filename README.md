@@ -1,4 +1,4 @@
-# SAP ECTR OSGi Example - own context window
+# SAP ECTR OSGi Example - new own tab in object browser for material
 
 Setup project in eclipse:
 
