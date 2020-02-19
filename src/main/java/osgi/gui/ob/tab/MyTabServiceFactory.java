@@ -19,7 +19,7 @@ public class MyTabServiceFactory implements PluginObjectBrowserTabService
   @Override
   public List<PluginObjectBrowserTab<?>> getTabsFor(String type)
   {
-    return "MARA".equals(type)? tabProvider: Collections.emptyList();
+    return "DRAW".equals(type)? tabProvider: Collections.emptyList();
   }
 
 }
