@@ -14,16 +14,21 @@ import javax.swing.*;
 
 public class MyTab implements PluginObjectBrowserTab<RfcResult>
 {
-  private JLabel label;
+	//private JLabel label;
   private JPanel panel;
   private ECTRService ectrService;
 
   MyTab(ECTRService ectrService)
   {
-    label = new JLabel("test1");
+	  
+    
     panel = new JPanel();
     
+    JLable label = new JLabel("test1");
     panel.add(label);
+    
+    JButton b1 = new Button("Button");
+    panel.add(b1);
    
     JTextField no1 = new JTextField(30);
     panel.add(no1);
